@@ -15,7 +15,17 @@ class VideoWidget extends StatelessWidget {
             height: 220,
             width: double.infinity,
             fit: BoxFit.cover,
-            image: AssetImage('assets/images/${(this.miniatura)}'))
+            image: AssetImage('assets/images/${(this.miniatura)}')
+          ),
+          Row(
+            children: [
+              Container(
+                height: 50,
+              )
+            ],
+          )
+          
+
         ],
       ),
     );

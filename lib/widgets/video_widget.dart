@@ -23,9 +23,7 @@ class VideoWidget extends StatelessWidget {
                 height: 50,
               )
             ],
-          )
-          
-
+          ),
         ],
       ),
     );
